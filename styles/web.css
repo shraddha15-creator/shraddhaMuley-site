@@ -6,9 +6,9 @@
 
  :root {
     --primary-color: #854220;
-    --offwhite-color: #dbd6d2;
+    --offwhite-color: #8a5e48;
     --button-text-color: #ffffff;
-    --header-text: #9CA3AF;
+    --header-text: #adadad;
 }
 
 ul {
@@ -43,14 +43,14 @@ body {
 
 .main-text h1 {
     font-size: 4rem;
-    color: #000508;
+    color: #2e0604;
     /* margin: 0px 0px 10px 0px; */
     line-height: 60px;
     text-align: left;
 }
 
 .main-text p {
-    color: #747474;
+    color: #643e28;
     font-size: 1.9rem;
 }
 
@@ -93,14 +93,14 @@ body {
 
 .about-me-text p {
     font-size: 1.1rem;
-    color: #241c48;
+    color: #643e28;
     line-height: 1.3rem;
     /* margin: 0rem 0rem 0.625rem 0rem; */
 }
 
 .about-me-text h1 {
     font-size: 2rem;
-    color: #1f1c48;
+    color: #020000;
     /* margin: 0rem 0rem 0.625rem 0rem; */
 }
 
@@ -191,11 +191,6 @@ footer span {
 }
 
 
-/* ******************************************************** */
-
-
-/* * Starting projects.html */
-
 .projects-img {
     max-width: 500px;
     display: block;
@@ -205,11 +200,6 @@ footer span {
     /* margin: auto;*/
 }
 
-
-/* ******************************************************** */
-
-
-/* * Starting blogs.html */
 
 .blogs-img {
     max-width: 500px;
@@ -226,112 +216,12 @@ footer span {
 /* ******************************************************** */
 
 
-/* * Starting blogs1.html */
-
-.blog-heading {
-    text-align: center;
-    font-size: 4rem;
-    color: #1c3548;
-    line-height: 60px;
-    margin: 3rem 0;
-}
-
-.projects-img-git {
-    max-width: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-bottom: 3rem;
-    border-radius: 1rem;
-}
-
-.blog {
-    max-width: 70%;
-    margin: auto;
-}
-
-.blog a {
-    color: #4338CA;
-}
-
-.blog p {
-    line-height: 1.5rem;
-    font-size: large;
-    padding: 0.5rem 1rem;
-}
-
-.blog h2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.blog h3 {
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
-}
-
-blockquote {
-    border-left: 10px solid var(--primary-color);
-    padding-left: 1rem;
-    font-size: 1.3rem;
-}
-
-.blog .quotes p {
-    padding-bottom: 1rem;
-    font-size: 1.7rem;
-    line-height: 2rem;
-}
-
-.blog .blog-unordered-list {
-    list-style: circle;
-    padding: 0.5rem 2rem;
-    font-size: large;
-}
-
-.blog-ordered-list {
-    padding: 0.5rem 2rem;
-    font-size: large;
-    line-height: 1.5rem;
-}
-
 code {
     background-color: #eee;
     border-radius: 3px;
     padding: 0 3px;
     /* display: inline; */
 }
-
-
-/* ******************************************* */
-
-
-/* *Starting blog2 */
-
-.blog h1 {
-    font-size: 1.7rem;
-    font-weight: 100;
-}
-
-.blog2-img-2 {
-    max-width: 700px;
-    margin: 0.7rem 0;
-}
-
-.projects-img-dart {
-    max-width: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-bottom: 3rem;
-    border-radius: 1rem;
-    height: 350px;
-}
-
-
-/* ******************************************* */
-
 
 /** Media Query */
 

@@ -7,7 +7,7 @@ body {
     --primary-color: #854220;
     --offwhite-color: #c79d91;
     --button-text-color: #ffffff;
-    --header-text: #9CA3AF;
+    --header-text: #411c1c;
 }
 
 
@@ -69,8 +69,8 @@ hr {
 .navbar {
     background-color: var(--primary-color);
     color: var(--button-text-color);
-    padding: 1rem 1rem;
-    border-bottom-left-radius: 1rem;
+    padding: 3rem 3rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .active {
