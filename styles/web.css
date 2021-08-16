@@ -237,7 +237,7 @@ footer span {
 
 @media only screen and (max-width: 400px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(214, 236, 243);
     }
 
     .projects h2{
