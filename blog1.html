@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blog1.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Higher-Order Functions In JavaScript</h1>
+      <h3 id="sub-title">
+        Understand the Higher-Order Functions and how to use them in JavaScript
+      </h3>
+
+      <div>
+        <img src="./images/js-blog.svg" alt="blog-cover">
+      </div>
+
+      <main>
+        <p>
+          While learning JavaScript you might have come across different
+          JavaScript Higher Order Functions. And it seems to be complicated to
+          understand at the very first time. And yeah it is complicated for
+          beginners as well as intermediates.
+        </p>
+
+        <p>
+          But understanding these Higher-Order Functions makes life easier.
+          These functions are extensively used in JavaScript.
+        </p>
+
+        <em>*Let's understand the Higher-Order Function in Javascript...*</em>
+
+        <h3>Higher-Order Funtions</h3>
+        <p>
+          Higher-Order Functions are the functions that return another function
+          as an argument.
+        </p>
+
+        <p>
+          Some Higher-Order Functions are <code>Array.prototype.map</code>,
+          <code>Array.prototype.reduce</code> and
+          <code>Array.prototype.filter</code> .
+        </p>
+
+        <h3 id="method-name"><code>Array.prototype.map()</code></h3>
+        <p>
+          The `map()` method creates a new array by calling the callback
+          function provided as an argument.
+        </p>
+        <p>Let's look at some examples:</p>
+
+        <h5>example 1:</h5>
+        <p>
+          We have one array of numbers and we have to create new array which
+          double the value of each element in array1. So here we will use map()
+          to solve this problem.
+        </p>
+        <code id="method">
+          const arr1 = [1, 2, 3, 4]; <br />
+          const result = arr1.map((x) => { <br />
+          return x * 2; <br />
+          }) <br />
+          console.log(result); // 2, 4, 6, 8 <br />
+        </code>
+
+        <h5>example 2:</h5>
+        <p>
+          Here we have array with birth year of a different person, so now we
+          will create new array with their ages.
+        </p>
+        <code id="method">
+          const birthYear = [1975, 1997, 2002, 1995, 1985]; <br />
+          const ages = birthYear.map(year => 2018 - year); <br />
+          <br />
+          console.log(ages); // [ 43, 21, 16, 23, 33 ] <br />
+        </code>
+
+        <h3 id="method-name"><code>Array.prototype.reduce</code></h3>
+        <p>
+          Reduce() is one of the most useful methods in JavaScript. Reduce() is
+          used to summarizing the total of an array.
+        </p>
+        <p>
+          Reduce() method accepts four parameters: accumulator, currentValue,
+          currentIndex and sourceArray.
+        </p>
+
+        <em>
+          An accumulator is equal to the initial value if provided and
+          currentValue is equal to the first element in the array.
+        </em>
+
+        <h5>example 1:</h5>
+        <p>If we have to sum an array of numbers,</p>
+
+        <code id="method">
+          const arr = [5, 7, 1, 8, 4]; <br />
+          const sum = arr.reduce(function(accumulator, currentValue) { <br />
+          return accumulator + currentValue; <br />
+          }, 10); <br />
+          console.log(sum); // 35 <br />
+        </code>
+
+        <h3 id="method-name"><code>Array.prototype.filter</code></h3>
+        <p>
+          filter() creates a new array with all elements that satisfies the
+          condition provided in callback function.
+        </p>
+        <p>This filter() accepts three arguments: array, index and element.</p>
+        <h5>example 1:</h5>
+        <p>
+          We have an array that contains objects with name and age. We will
+          create new array with full age which are greater than or equal to 18.
+        </p>
+
+        <code id="method">
+          const persons = [ <br>
+            { name: 'Peter', age: 16 }, <br>
+            { name: 'Mark', age: 18}, <br>
+            { name: 'John', age: 27 }, <br>
+            { name: 'Jane', age: 14 }, <br>
+            { name:'Tony', age: 24},<br>
+         ];
+          <br>
+        const fullAge = persons.filter(person => <br>
+          person.age >= 18); <br>
+          <br>
+        console.log(fullAge); <br>
+        </code>
+      </main>
+
+    <h4>Hope you have understood the Higher-Order Function in Javascript. 😀</h4>
+    </div>
+  </body>
+</html>
