@@ -56,8 +56,8 @@ hr {
 .navbar {
     background-color: var(--primary-color);
     color: var(--button-text-color);
-    padding: 2rem 3rem;
-    border-bottom-left-radius: 2rem;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .active {
@@ -79,13 +79,11 @@ hr {
     font-size: larger;
 }
 
-
-/* * header  */
+/*  header  */
 
 .header-img {
     margin: auto;
     width: 100%;
-    /* max-width: 30rem; */
     max-width: 350px;
     display: block;
 }
@@ -94,9 +92,6 @@ hr {
     margin: auto;
     color: var(--header-text);
     text-align: center;
-    /* margin: 0 auto;
-    max-width: 600px;
-    position: absolute; */
 }
 
 
@@ -106,9 +101,6 @@ hr {
     margin: 2rem 0;
 }
 
-.section h2 {
-    text-align: center;
-}
 
 .off-white {
     background-color: var(--offwhite-color);
@@ -162,29 +154,24 @@ hr {
     margin-top: 4rem;
 }
 
-/** Media Query */
-
-@media screen and (min-width: 800px) {
-    
-
-    .h2{
-        display: block
-    }
-}
-
-@media screen and (max-width: 600px) {
-    /* * blog1 */
-    .blog {
-        max-width: 100%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .hero-content {
-        margin-top: 0;
-        margin-bottom: 0;
-        display: block;
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
     }
 
-}
+    section h2{
+        font-size: 1rem;;
+    }
+
+    .navbar{
+        margin-right: 0;
+    }
+
+    .navbar a{
+        font-size: 0.7rem;
+    }
+
+    #mark{
+        font-size: 0.4rem;
+    }
+  }

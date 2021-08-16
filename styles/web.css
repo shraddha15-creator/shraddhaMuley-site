@@ -31,19 +31,18 @@ body {
     margin: auto;
     max-width: 90%;
     margin-top: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .main-text {
     flex: 50%;
     margin: 4rem 0;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .main-text h1 {
     font-size: 4rem;
     color: #2e0604;
-    /* margin: 0px 0px 10px 0px; */
     line-height: 60px;
     text-align: left;
 }
@@ -81,7 +80,7 @@ body {
     margin: auto;
     max-width: 90%;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .about-me-text {
@@ -128,16 +127,16 @@ body {
 
 .projects {
     margin: auto;
-    max-width: 50%;
+    max-width: 70%;
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 2rem;
     border: 1px solid var(--primary-color);
-    padding: 2rem
+    padding: 2rem;
 }
 
 .projects h2 {
-    margin: 1.5rem;
+    margin: 0.5rem;
 }
 
 .projects p {
@@ -147,6 +146,7 @@ body {
 
 .projects a {
     margin-top: 1.5rem;
+    margin-right: 1rem;
     display: inline-block;
 }
 
@@ -155,12 +155,12 @@ body {
 
 .blogs {
     margin: auto;
-    max-width: 50%;
+    max-width: 70%;
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 2rem;
     border: 1px solid var(--primary-color);
-    padding: 2rem
+    padding: 2rem;
 }
 
 .blogs h2 {
@@ -234,5 +234,38 @@ footer span {
         margin-top: 1rem;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .projects h2{
+        font-size: 1rem;
+    }
+
+    .main-text{
+        margin: 1rem 0;
+        
+    }
+
+    .main-text h1 {
+        font-size: 1rem;
+        line-height: 20px;
+        text-align:left;
+    }
+
+    .main-text p{
+        font-size: 1rem;
+    }
+
+    .model-sm img{
+        width: 100%;
+        /* height: 100%; */
+        height: auto;
+        margin-top: 1rem;
+    }
+
+  }
 
 
