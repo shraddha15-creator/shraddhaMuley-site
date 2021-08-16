@@ -161,3 +161,30 @@ hr {
     font-size: 0.6rem;
     margin-top: 4rem;
 }
+
+/** Media Query */
+
+@media screen and (min-width: 800px) {
+    
+
+    .h2{
+        display: block
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* * blog1 */
+    .blog {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero-content {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block;
+    }
+
+}
