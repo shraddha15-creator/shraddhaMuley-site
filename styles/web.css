@@ -6,7 +6,6 @@
 
  :root {
     --primary-color: #854220;
-    --offwhite-color: #8a5e48;
     --button-text-color: #ffffff;
     --header-text: #adadad;
 }
@@ -31,7 +30,7 @@ body {
     display: flex;
     margin: auto;
     max-width: 90%;
-    margin-top: 10rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
 }
 
@@ -129,9 +128,12 @@ body {
 
 .projects {
     margin: auto;
-    max-width: 90%;
+    max-width: 50%;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    border: 1px solid var(--primary-color);
+    padding: 2rem
 }
 
 .projects h2 {
@@ -153,9 +155,12 @@ body {
 
 .blogs {
     margin: auto;
-    max-width: 90%;
+    max-width: 50%;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    border: 1px solid var(--primary-color);
+    padding: 2rem
 }
 
 .blogs h2 {
@@ -201,51 +206,12 @@ footer span {
 }
 
 
-.blogs-img {
-    max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    /* margin: auto;*/
-}
-
 
 /* ******************************************************** */
 
 
-code {
-    background-color: #eee;
-    border-radius: 3px;
-    padding: 0 3px;
-    /* display: inline; */
-}
-
-/** Media Query */
-
-@media screen and (min-width: 800px) {
-    /* * hero img  */
-    .model-sm img {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    /* * blogs1 */
-    .blog {
-        max-width: 100%;
-        margin: auto;
-    }
-}
-
 @media screen and (max-width: 800px) {
-    .hero-content {
-        margin-top: 0;
-        margin-bottom: 0;
-        display: block;
-    }
+
     .about-me {
         display: block;
         margin-top: 0;
@@ -269,41 +235,6 @@ code {
     .about-me h3 {
         margin-top: 1rem;
     }
-    .main-text {
-        padding: 0;
-    }
-    .model-1 {
-        margin: 4rem 0;
-        display: none;
-    }
-    .model-2 {
-        margin: 4rem 0;
-        /* display: none; */
-    }
-    .model img {
-        margin: auto;
-        max-width: 350px;
-        display: block;
-        float: left;
-    }
-    .blogs p {
-        padding: 0 1rem;
-    }
-    .blog-heading {
-        font-size: 3.7rem;
-        padding: 0 0.5rem;
-    }
-    .projects-img-dart {
-        height: 200px;
-    }
-    .blog2-img-2 {
-        max-width: 400px;
-        margin: 0.7rem 0;
-    }
-    .dart-ol {
-        padding: 0 1rem;
-    }
-    .nested-ul li {
-        margin-bottom: 0.7rem;
-    }
 }
+
+
