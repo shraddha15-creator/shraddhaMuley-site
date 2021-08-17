@@ -36,7 +36,7 @@ body {
 
 .main-text {
     flex: 50%;
-    margin: 4rem 0;
+    margin: 7rem 0;
     padding: 1rem;
 }
 
@@ -85,8 +85,14 @@ body {
 
 .about-me-text {
     flex: 50%;
-    margin: 4rem 0;
+    
     padding: 3rem;
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    padding: 2rem;
 }
 
 .about-me-text p {
