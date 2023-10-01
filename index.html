@@ -7,6 +7,7 @@
     <title>Home | Shraddha's Portfolio</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/web.css">
+    <link rel="stylesheet" href="./styles/stepper.css">
     <link rel="projects" href="./project.html">
     <link rel="blogs" href="./blogs.html">
     <link rel=" icon" href="./images/favicon.ico" type="image/x-icon">
@@ -15,7 +16,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <div><a class="brand-name" href="/">Shraddha</a></div>
+        <div><a class="brand-name" href="/">Shraddhaaa</a></div>
         <ul class="list-unordered">
             <li><a class="links active" href="/">HOME</a></li>
             <li><a class="links" href="./project.html">PROJECTS</a>
@@ -33,37 +34,53 @@
                 <h1>I’m Shraddha</h1>
                 <p> <strong>Front-End Developer. </strong>
                 </p>
+                <p class="text-small">I have 2 years of experinece building <strong>Web & Mobile Applications</strong> with <strong>ReactJs and React Native<strong>.</p>
+                <div>
+                    <button class="btn-download-resume" id="downloadButton">Download Resume</button>
+                    <button class="btn-hire-me" id="openGmailButton">Hire Me</button>
+                </div>    
             </div>
-            <div class="model-sm">
-                <img src="./images/hero.svg" alt="home-banner">
+            <div class="hero-img-bg">
+                <div class="model-sm">
+                    <img src="./images/hero-image.png" alt="home-banner">
+                </div>
             </div>
         </header>
         <section class="about-me">
             
             <div class="about-me-text">
-                <h1>About me!</h1>
-                <p>I’m a Front End Developer. 
+                <!-- <h1>About me!</h1>
+                <p>I’m a Front End Developer.  -->
             
 
-                <h3>My Skills:</h3>
-                <ul>
-                    <li>Web: HTML5, CSS3, Javascript, TailwindCSS, Bootstrap, React</li>
+                <h3>Skills</h3>
+                <div class="skills-container">
+                    <img src="./images/html.png" alt="html" class="skill-icon">
+                    <img src="./images/css.png" alt="html" class="skill-icon">
+                    <img src="./images/javascript.png" alt="html" class="skill-icon">
+                    <img src="./images/react.png" alt="html" class="skill-icon">
+                    <img src="./images/react-native.png" alt="html" class="skill-icon">
+                    <img src="./images/redux.png" alt="html" class="skill-icon">
+                    <img src="./images/tailwind-css.png" alt="html" class="skill-icon">
+                </div>
+                <!-- <ul>
+                    <li>Web: HTML5, CSS3, Javascript, React JS, React Native, Redux, React Router, Tailwind CSS</li>
                     <li>VCS: Git, Github</li>
                     <li>Web Hosting: Netlify</li>
-                </ul>
+                </ul> -->
             </div>
         </section>
 
         <section class="section projects">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
             <p>Hey I have some awesome projects, Please check it out!</p>
-            <a class="links link-primary" href="./project.html">View Projects</a>
+            <a class="btn-view-projects" href="./project.html">View Projects</a>
         </section>
 
         <section class="section blogs">
-            <h2>My Blogs</h2>
+            <h2>Blogs</h2>
             <p>You can checkout my blogs!!</p>
-            <a class="links link-primary" href="./blogs.html">Read Blogs</a>
+            <a class="btn-view-blogs" href="./blogs.html">Read Blogs</a>
         </section>
     </main>
 
@@ -86,7 +103,8 @@
                 </a>
             </li>
         </ul>
-        <p> || copyrigtht © Shraddha | 2021 ||</p>
+        <p> || copyrigtht © Shraddha | 2023 ||</p>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
